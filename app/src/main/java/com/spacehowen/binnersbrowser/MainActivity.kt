@@ -13,8 +13,8 @@ import androidx.annotation.RequiresApi
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
-    private val BASE_URL = "https://google.com"
-    private val SEARCH_PATH = "/search?q="
+    private val BASE_URL = "https://duckduckgo.com/"
+    private val SEARCH_PATH = "/?q="
     @RequiresApi(Build.VERSION_CODES.LOLLIPOP)
     @SuppressLint("SetJavaScriptEnabled")
     override fun onCreate(savedInstanceState: Bundle?) {
